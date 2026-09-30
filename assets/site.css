@@ -112,7 +112,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .i-garlic{top:11%;right:29%;--w:64px;--r0:8deg;--r1:-6deg;--d:24;--t:6.2s;--dl:1s}
 .i-cucumber{top:47%;right:15%;--w:82px;--r0:-10deg;--r1:14deg;--d:26;--t:7s;--dl:.2s}
 .i-beet{bottom:27%;right:4.5%;--w:72px;--r0:10deg;--r1:-8deg;--d:20;--t:6.4s;--dl:.8s}
-@media(max-width:1180px){.i-cucumber{right:4%;top:53%}}
+@media(max-width:1180px){.i-cucumber{right:4%;top:53%}.i-beet{display:none}}
 @media(max-width:900px){.i-garlic,.i-beet{display:none}.i-cucumber{top:34%;right:2%;--w:64px}.i-lemon{left:auto;right:28%;bottom:4%}}
 @media(max-width:640px){.dipster{width:80px;right:5%;bottom:5%}.s2{display:none}.jarcam{width:96px;bottom:4%;left:4%}.s1{top:12%;left:6%}.s3{display:none}.hero .center{padding-bottom:140px}.b3{top:30%;width:64px;right:-14px}.i-chilli{top:11%;left:4%;--w:58px}.i-chickpeas{top:auto;bottom:3%;left:38%;--w:62px}.i-cucumber{top:31%;right:-14px;--w:52px}.i-lemon{display:none}}
 
