@@ -8,10 +8,19 @@
 <title>Dip Shizzzz — The good shizz.</title>
 <meta name="description" content="Chef-made Mediterranean dips with the swagger dialled up. Real ingredients, made fresh weekly, zero boring.">
 <meta name="theme-color" content="#b6e82f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dip Shizzzz">
+<meta property="og:url" content="https://sameerkumar1236-max.github.io/">
 <meta property="og:title" content="Dip Shizzzz — The good shizz.">
-<meta property="og:description" content="Premium Mediterranean dips. Loud outside, legit inside.">
-<meta property="og:image" content="assets/range.jpg">
+<meta property="og:description" content="Premium Mediterranean dips. Loud outside, legit inside. Made fresh weekly.">
+<meta property="og:image" content="https://sameerkumar1236-max.github.io/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Five Dip Shizzzz jars: Hummus, Beetroot, Muhammara, Tzatziki and Harissa">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://sameerkumar1236-max.github.io/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23f6431f' stroke='%2316150f' stroke-width='8'/%3E%3Ccircle cx='36' cy='44' r='12' fill='%23fff'/%3E%3Ccircle cx='64' cy='44' r='12' fill='%23fff'/%3E%3Ccircle cx='39' cy='46' r='5'/%3E%3Ccircle cx='67' cy='46' r='5'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/bricolage-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
 </head>
@@ -25,20 +34,20 @@
 
 <header class="nav" id="nav">
   <div class="wrap in">
-    <a class="bm" href="index.html" aria-label="Dip Shizzzz home">DIP SHIZ<b>ZZZ</b></a>
+    <a class="bm" href="/" aria-label="Dip Shizzzz home">DIP SHIZ<b>ZZZ</b></a>
     <ul class="navlinks">
       <li><a href="#dips">The dips</a></li>
       <li><a href="#eat">How to eat</a></li>
       <li><a href="#story">Our story</a></li>
-      <li><a href="shop.html">Shop</a></li>
+      <li><a href="/shop.html">Shop</a></li>
     </ul>
     <div class="navr">
-      <button class="bag" type="button" aria-label="Open bag">🛍️ <span class="t">Bag</span> <span class="n hide">0</span></button>
+      <button class="bag" type="button" aria-label="Open bag"><span aria-hidden="true">🛍️</span> <span class="t">Bag</span> <span class="n hide" aria-hidden="true">0</span></button>
       <button class="navtoggle" id="navtoggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
     </div>
   </div>
   <nav class="mobmenu" aria-label="Mobile">
-    <a href="#dips">The dips</a><a href="#eat">How to eat</a><a href="#story">Our story</a><a href="shop.html">Shop →</a>
+    <a href="#dips">The dips</a><a href="#eat">How to eat</a><a href="#story">Our story</a><a href="/shop.html">Shop →</a>
   </nav>
 </header>
 
@@ -47,11 +56,14 @@
 <!-- HERO -->
 <section class="hero">
   <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
-  <span class="st s1" aria-hidden="true">🌶️</span>
-  <span class="st s2" aria-hidden="true">✨</span>
   <span class="st pin s3" aria-hidden="true">yum.</span>
   <span class="st pin pk s4" aria-hidden="true">fresh af</span>
-  <span class="st s5" aria-hidden="true">💫</span>
+  <img class="ing i-chilli" src="assets/ing/chilli.webp" alt="" width="237" height="240">
+  <img class="ing i-chickpeas" src="assets/ing/chickpeas.webp" alt="" width="240" height="124">
+  <img class="ing i-lemon" src="assets/ing/lemon.webp" alt="" width="240" height="230">
+  <img class="ing i-garlic" src="assets/ing/garlic.webp" alt="" width="233" height="240">
+  <img class="ing i-cucumber" src="assets/ing/cucumber.webp" alt="" width="232" height="240">
+  <img class="ing i-beet" src="assets/ing/beetroot.webp" alt="" width="214" height="240">
   <img class="jarcam" src="assets/jar_beetroot.jpg" alt="" width="805" height="1000">
   <img class="jarcam r" src="assets/jar_harissa.jpg" alt="" width="805" height="1000">
   <svg class="dipster" viewBox="0 0 120 110" fill="none" aria-hidden="true">
@@ -63,7 +75,7 @@
 
   <div class="center">
     <span class="kick">Premium dips · zero boring</span>
-    <h1 class="wm disp stroke"><span class="a">DIP</span><span class="b">SHIZZZZ</span></h1>
+    <h1 class="wm disp stroke"><span class="a">DIP</span> <span class="b">SHIZZZZ</span></h1>
     <div class="rotor" aria-hidden="true"><span class="w" id="rotor">dunk it.</span></div>
     <p class="sub">Premium Mediterranean dips with the swagger dialled up. Real ingredients, made fresh, zero boring.</p>
     <div class="cta">
@@ -126,7 +138,7 @@
   </div></div>
   <div class="wrap" style="margin-top:clamp(40px,6vw,72px)">
     <div class="frame reveal">
-      <img src="assets/range.jpg" alt="All five Dip Shizzzz jars lined up: Hummus, Beetroot, Muhammara, Tzatziki and Harissa" loading="lazy" width="1800" height="1207">
+      <img src="assets/range.jpg" alt="All five Dip Shizzzz jars lined up: Hummus, Beetroot, Muhammara, Tzatziki and Harissa" loading="lazy" width="1800" height="1208">
       <span class="st pin a">all 5. zero boring.</span>
       <span class="st pin b">cheeky outside ✦ seriously good inside</span>
     </div>
@@ -168,7 +180,7 @@
 <!-- STORY -->
 <section class="sec story" id="story">
   <div class="wrap">
-    <span class="kick reveal">Our story</span>
+    <h2 class="kick reveal">Our story</h2>
     <p class="q reveal" style="margin-top:22px">We got tired of dips that taste like <mark>an apology.</mark></p>
     <p class="body reveal">So we made the opposite — proper Mediterranean recipes, real ingredients, made fresh in small batches — and then we gave them the loud packaging they deserved. No preservatives, no shortcuts, no beige. Just the good shizz.</p>
     <div class="sig reveal"><span class="tag">No preservatives</span><span class="tag">Small batches</span><span class="tag">Made fresh weekly</span><span class="tag">Zero beige</span></div>
@@ -185,7 +197,7 @@
       <div class="price disp">₹399</div>
       <a class="btn hot" href="shop.html#tasting-set">Get the set →</a>
     </div>
-    <div class="ph reveal"><img src="assets/range.jpg" alt="The five Dip Shizzzz flavours together" loading="lazy" width="1800" height="1207"></div>
+    <div class="ph reveal"><img src="assets/tasting_pinch.jpg" alt="A hand picking up a tiny Beetroot Bop mini jar, with the other four mini jars below" loading="lazy" width="1400" height="939"></div>
   </div>
 </section>
 
@@ -196,16 +208,17 @@
     <div class="big disp">the good<br><b>shizz.</b></div>
     <p class="fresh">🧊 Made fresh, no preservatives. Keep it chilled, eat within 7 days of opening, and try not to finish it in one sitting (you will).</p>
     <div class="row">
-      <div><a href="index.html#dips">The dips</a><a href="shop.html">Shop</a><a href="index.html#story">Our story</a></div>
+      <div><a href="/#dips">The dips</a><a href="/shop.html">Shop</a><a href="/#story">Our story</a></div>
       <small>No boring dips. Made fresh, weekly. © 2026 Dip Shizzzz</small>
     </div>
   </div>
 </footer>
 
 <div class="ov" id="ov"></div>
-<aside class="cart" id="cart" aria-label="Your bag" aria-hidden="true">
-  <div class="top"><h2>Your bag</h2><button class="x" id="cartx" type="button" aria-label="Close bag">✕</button></div>
+<aside class="cart" id="cart" role="dialog" aria-modal="true" aria-labelledby="carttitle" aria-hidden="true">
+  <div class="top"><h2 id="carttitle">Your bag</h2><button class="x" id="cartx" type="button" aria-label="Close bag">✕</button></div>
   <div class="items" id="items"></div>
+  <p class="sr" id="cartlive" aria-live="polite"></p>
   <div class="bot">
     <div class="sub"><span>Subtotal</span><span id="sub">₹0</span></div>
     <p class="fine">Checkout sends your order to us on WhatsApp — we confirm delivery &amp; payment there.</p>
